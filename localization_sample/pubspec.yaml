@@ -1,0 +1,34 @@
+name: localization_sample
+description: A new Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  country_icons: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_localization: ^0.2.2
+  flutter_localizations:
+    sdk: flutter
+  intl: null
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  intl_utils: ^2.8.7
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+flutter_intl:
+  enabled: true
+  arb_dir: lib/l10n
+  output_dir: lib/generated
